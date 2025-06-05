@@ -11,12 +11,12 @@ Det är här du kommer in, eller i detta fallet jag!
 Min uppgift blev att skriva E2E-tester för Läslistan – en app där användaren ska kunna:
 
 - Navigera mellan alla sidor  
-- Klicka på “Katalog” och se boklistan  
-- Gilla och ogilla böcker via hjärtat  
-- Lägga till nya böcker i formuläret  
-- Se sina favoritböcker i “Mina böcker”
+- Klicka på “Katalog” och se den nuvarande boklistan  
+- Gilla och ogilla böcker med hjärt-knappen  
+- Lägga till nya böcker med hjälp av formuläret på "Lägg till bok" sidan
+- Se sina favoritböcker på “Mina böcker” sidan
 
-Jag har använt Playwright för att säkerställa att alla tester fungerar som det ska.
+Jag har använt mig av Playwright för att säkerställa att alla tester fungerar som det ska.
 
 Med dessa tester kan Frontend AB känna sig trygga med att appen fungerar, även om nästa person skulle byta karriär igen!
 
