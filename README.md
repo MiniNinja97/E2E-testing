@@ -1,12 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Om lite drygt ett år sitter du där, på Frontend AB. 
+Färdig utvecklare och hypad till max!
 
-Currently, two official plugins are available:
+Tyvärr har inte alla varit lika peppade. Din föregångare gav upp mitt i projektet och sadlade om till snickare. 
+(Han bygger numera datorchassin av trä.) Det sätter Frontend AB i en besvärlig sits – projektet är byggt, men det finns inga E2E-tester. 
+Ingen av de gamla rävarna har tid att fixa det.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Det är här du kommer in, eller i detta fallet jag!
 
-## Expanding the ESLint configuration
+Min uppgift blev att skriva E2E-tester för Läslistan – en app där användaren ska kunna:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Navigera mellan alla sidor  
+- Klicka på “Katalog” och se boklistan  
+- Gilla och ogilla böcker via hjärtat  
+- Lägga till nya böcker i formuläret  
+- Se sina favoritböcker i “Mina böcker”
+
+Jag har använt Playwright för att säkerställa att alla tester fungerar som det ska.
+
+Med dessa tester kan Frontend AB känna sig trygga med att appen fungerar, även om nästa person skulle byta karriär igen!
+
+
